@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]">
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="BasicPackage.BaseClass">
+        <methods>
+          <include name="getCurrentUrlAmazon"/>
+          <include name="LaunchAmazon"/>
+          <include name="getTitleAmazon"/>
+        </methods>
+      </class> <!-- BasicPackage.BaseClass -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
